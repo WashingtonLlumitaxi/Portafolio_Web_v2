@@ -22,7 +22,7 @@ const Introduction = () => {
                         </Link>
                     </div>
                 </div>
-                <Image src="/profile.png" alt="Profile pic" width={500} height={500} />
+                <Image src="/avatar-1.png" alt="Profile pic" width={400} height={400} />
             </div>
         </Container>
     );
