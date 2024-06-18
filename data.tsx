@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
+import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Github, Home, Inbox, Linkedin, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
 
 export const dataAboutMe = [
     {
@@ -286,22 +286,22 @@ export const dataServices = [
 export const dataContact = [
     {
         id: 1,
-        title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
-        icon: <Phone />,
+        title: "Linkedin",
+        subtitle: "/in/david-llumitaxi",
+        link: "https://www.linkedin.com/in/david-llumitaxi-10b26322a/",
+        icon: <Linkedin />,
     },
     {
         id: 2,
-        title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
-        icon: <Code2 />,
+        title: "GitHub",
+        subtitle: "/washingtonllumitaxi",
+        link: "https://github.com/settings/profile",
+        icon: <Github />,
     },
     {
         id: 3,
         title: "Email",
-        subtitle: "email@email.com",
+        subtitle: "davidllumitaxi67@gmail.com",
         link: "mailto:test@test.com",
         icon: <Inbox />,
     },
