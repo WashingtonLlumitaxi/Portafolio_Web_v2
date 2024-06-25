@@ -47,7 +47,7 @@ const AboutMe = () => {
                     </div>
                     <p className="my-8 text-justify">
                         I am a Junior Software Engineer, 
-                        I'm in the
+                        I am in the
                         active search for a
                         position that allows me
                         contribute my knowledge
@@ -55,7 +55,7 @@ const AboutMe = () => {
                         give me the opportunity to
                         grow professionally alongside
                         of experts in an environment
-                        dynamic and challenging. I'm
+                        dynamic and challenging. I am
                         committed to development
                         of innovative solutions and
                         I have a great interest in
