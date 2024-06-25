@@ -102,6 +102,13 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/WashingtonLlumitaxi/CompuMod_v2.git",
         urlDemo: "#!",
     },
+    {
+        id: 5,
+        title: "COMPOSTLAB WEB",
+        image: "/gad1.png",
+        urlGithub: "https://github.com/WashingtonLlumitaxi/WEB-COMPOSTLAB-PRODUCCTION.git",
+        urlDemo: "https://web-compostlab-producction.pages.dev/",
+    },
 ];
 
 
