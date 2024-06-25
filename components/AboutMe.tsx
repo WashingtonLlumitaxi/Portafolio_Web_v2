@@ -8,34 +8,31 @@ import Image from "next/image";
 const AboutMe = () => {
     return (
         <div className="p-6 md:px-12 md:py-30 max-w-5xl mx-auto" id="about-me">
-            <Title title="Sobre mi" subtitle="Conóceme" />
+            <Title title="About Me" subtitle="Know Me Better" />
             <div className="grid md:grid-cols-2">
                 <div className="py-12 md:py-0 flex items-center justify-center">
                     {/*Carrusel*/}
                     <Carousel opts={{
                         align: "start"
                     }}
-                    orientation="vertical"
-                    className="w-full max-w-xs h-fit"
+                        orientation="vertical"
+                        className="w-full max-w-xs h-fit"
                     >
                         <CarouselContent className="-mt-1 h-[200px]">
                             {dataSlider.map((data) => (
                                 <CarouselItem key={data.id}>
                                     <div className="flex items-center justify-center">
                                         <Image
-                                        src={data.url} 
-                                        alt="Image"
-                                        width={250} height={400}
-                                        className="w-full h-auto rounded-lg"/>
+                                            src={data.url}
+                                            alt="Image"
+                                            width={250} height={400}
+                                            className="w-full h-auto rounded-lg" />
                                     </div>
-
                                 </CarouselItem>
                             ))}
-
                         </CarouselContent>
                         <CarouselPrevious />
                         <CarouselNext />
-
                     </Carousel>
                 </div>
                 <div>
@@ -47,30 +44,29 @@ const AboutMe = () => {
                                 <p className="text-gray-400">{data.description}</p>
                             </div>
                         ))}
-
                     </div>
-                    <p className="my-8">
-                        Soy un Ingeniero de Software
-                        Junior, me encuentro en la
-                        búsqueda activa de una
-                        posición que me permita
-                        aportar mis conocimientos
-                        técnicos y, al mismo tiempo,
-                        brindarme la oportunidad de
-                        crecer profesionalmente al lado
-                        de expertos en un entorno
-                        dinámico y desafiante. Estoy
-                        comprometido con el desarrollo
-                        de soluciones innovadoras y
-                        tengo un gran interés en
-                        colaborar en proyectos que
-                        impulsen mi desarrollo y me
-                        permitan contribuir
-                        significativamente al éxito del
-                        equipo
+                    <p className="my-8 text-justify">
+                        I am a Junior Software Engineer, 
+                        I'm in the
+                        active search for a
+                        position that allows me
+                        contribute my knowledge
+                        technical and, at the same time,
+                        give me the opportunity to
+                        grow professionally alongside
+                        of experts in an environment
+                        dynamic and challenging. I'm
+                        committed to development
+                        of innovative solutions and
+                        I have a great interest in
+                        collaborate on projects that
+                        boost my development and
+                        allow you to contribute
+                        significantly to the success of
+                        equipment
                     </p>
                     <Button>
-                        <Phone size={20} className="mr-2"/> Hablamos
+                        <Phone size={20} className="mr-2" /> Write Me
                     </Button>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const Introduction = () => {
                 <div className="flex items-center">
                     <div className="flex flex-col md:flex-row gap-4 justify-between mt-10 mx-auto">
                         <Link className={buttonVariants()} href="#contact">
-                            <Mail className="mr-2"/>Contacta Conmigo
+                            <Mail className="mr-2"/>Contact Me
                         </Link>
                         <Link className={buttonVariants({ variant: 'secondary'})} href="/CV-Llumitaxi.pdf"
                         target="_blank">

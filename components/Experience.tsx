@@ -5,8 +5,8 @@ import { Progress } from "./ui/progress";
 
 const Experience = () => {
     return (
-        <div className="p-6 md:px-12 md:py-44 max-w-5xl mx-auto" id="skills">
-            <Title title="Experiencia " subtitle="Skills que tengo"/>
+        <div className="p-4 md:px-12 md:py-40 max-w-5xl mx-auto" id="skills">
+            <Title title="Skills" subtitle="Frameworks & Tech"/>
 
             <div className="grid md:grid-cols-2 gap-8 mt-5">
                 {dataExperience.map((data) => (
@@ -18,12 +18,9 @@ const Experience = () => {
                                     <p className="flex gap-2 mb-2"><BadgeCheck/>{item.name}</p>
                                     <p className="text-gray-400 mb-2">{item.subtitle}</p>
                                     <Progress value={item.value}/>
-
                                 </div>
-
                             ))}
                         </div>
-
                     </div>
                 ))}
             </div>
